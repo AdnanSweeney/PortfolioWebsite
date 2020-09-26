@@ -4,6 +4,7 @@ import gmail from "../assets/gmailIcon.svg"
 import linkedin from "../assets/linkedinIcon.svg"
 import IconLink from "../components/iconLink"
 import linksList from "../assets/links.json"
+import resume from "../assets/Resume.pdf"
 
 export default function Home() {
   let icons = {
@@ -20,7 +21,9 @@ export default function Home() {
       />
 
       <header className="white-text header">
-        <p className="header-link"> Resume </p>
+        <a href={resume}>
+          <p className="header-link"> Resume </p>
+        </a>
         <p className="header-link"> Projects </p>
         <p className="header-link"> Contact </p>{" "}
       </header>
