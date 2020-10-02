@@ -1,0 +1,27 @@
+{
+  "contact": [
+    {
+      "id": "linkedin",
+      "link": "https://www.linkedin.com/in/adnan-sweeney-121951109/",
+      "alt": "LinkedIn Icon"
+    },
+    {
+      "id": "github",
+      "link": "https://github.com/AdnanSweeney",
+      "alt": "GitHub Icon"
+    },
+    {
+      "id": "gmail",
+      "link": "mailto:adnansweeney@gmail.com",
+      "alt": "Gmail Icon"
+    }
+  ],
+
+  "project": [
+      {
+          "id": "manaculator.surge.sh",
+          "link": "https://manaculator.surge.sh/",
+          "alt": "Manaculator Link"
+      }
+  ]
+}
