@@ -1,3 +1,12 @@
+To deploy: 
+
+1. `gatsby build`
+2. `surge public/`
+3. `TODO: Automate the URL selection for surge`
+4. `TODO: Describe how to install Surge and Gatsby`
+
+Here's a link to the actual site: [http://radnanv1.surge.sh/](http://radnanv1.surge.sh/)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
