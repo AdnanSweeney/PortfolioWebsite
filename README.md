@@ -1,9 +1,5 @@
-To deploy: 
-
-1. `gatsby build`
-2. `surge public/`
-3. `TODO: Automate the URL selection for surge`
-4. `TODO: Describe how to install Surge and Gatsby`
+To deploy, run `npm run deploy` to execute the deploy script in `package.json`
+To deploy manually, run `gatsby build` and then `surge public/`
 
 Here's a link to the actual site: [http://radnanv1.surge.sh/](http://radnanv1.surge.sh/)
 
