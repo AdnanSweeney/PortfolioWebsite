@@ -20,10 +20,11 @@ export default function Home() {
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
         rel="stylesheet"
       />
+      <title> Adnan Sweeney </title>
 
       <header className="white-text header">
         <div className="header-icon-container">
-          <img className="header-icon" src={asLogo} />
+          <img className="header-icon" src={asLogo} alt="AS Logo" />
         </div>
         <div className="header-links-container">
           <a href={resume}>
