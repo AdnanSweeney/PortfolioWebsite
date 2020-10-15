@@ -28,13 +28,31 @@ a {
 }
 
 .header {
-    height: 3em;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 1em;
-    align-items: center;
-    background: #121314;
-    background: linear-gradient(to left, #121314, #27292b 40%);
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 1em;
+  align-items: center; */
+  background: #121314;
+  background: linear-gradient(to left, #121314, #27292b 40%);
+}
+
+.header-icon-container {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+}
+
+.header-icon {
+  height: 85%;
+  margin-left: 1em;
+}
+
+.header-links-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+  align-items: center;
 }
 
 .header-link {

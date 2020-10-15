@@ -5,6 +5,7 @@ import linkedin from "../assets/linkedinIcon.svg"
 import IconLink from "../components/iconLink"
 import linksList from "../assets/links.json"
 import resume from "../assets/Resume.pdf"
+import asLogo from "../assets/asLogo.svg"
 
 export default function Home() {
   let icons = {
@@ -21,11 +22,16 @@ export default function Home() {
       />
 
       <header className="white-text header">
-        <a href={resume}>
-          <p className="header-link"> Resume </p>
-        </a>
-        <p className="header-link"> Projects </p>
-        <p className="header-link"> Contact </p>{" "}
+        <div className="header-icon-container">
+          <img className="header-icon" src={asLogo} />
+        </div>
+        <div className="header-links-container">
+          <a href={resume}>
+            <p className="header-link"> Resume </p>
+          </a>
+          <p className="header-link"> Projects </p>
+          <p className="header-link"> Contact </p>
+        </div>
       </header>
 
       <div>
