@@ -16,7 +16,7 @@ module.exports = {
         background_color: `#564EFF`,
         theme_color: `#9055FF`,
         display: `standalone`,
-        icon: `src/assets/asLogoBorderThick.svg`,
+        icon: `src/assets/v2Logos/FaviconPngNoBackground.png`,
       },
     },
   ],
