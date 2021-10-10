@@ -1,7 +1,7 @@
 To deploy, run `npm run deploy` to execute the deploy script in `package.json`
 To deploy manually, run `gatsby build` and then `surge public/`
 
-Here's a link to the actual site: [http://radnanv1.surge.sh/](http://radnanv1.surge.sh/)
+Here's a link to the actual site: [http://radnan.surge.sh/](http://radnan.surge.sh/)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
