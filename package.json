@@ -16,10 +16,11 @@
     "deploy": "gatsby build && surge public/ https://radnan.surge.sh"
   },
   "dependencies": {
-    "gatsby": "^2.24.78",
+    "gatsby": "^2.13.57",
     "gatsby-plugin-manifest": "^2.4.34",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "prettier": "2.1.1"
