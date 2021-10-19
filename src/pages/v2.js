@@ -27,6 +27,7 @@ const StyledImage = styled.img`
   top: 7.5vh;
   left: -15vw;
   transform: rotate(-20deg);
+  overflow: hidden;
 `
 
 const Header = styled.div`
@@ -42,8 +43,36 @@ const ListItemContainer = styled.div`
   align-items: flex-end;
 `
 
-const ListItem = styled.div`
+const StyledLink = styled.a`
   font-size: 60px;
+  color: #303030;
+  text-decoration: none;
+
+  &:hover {
+    color: #303030;
+    text-decoration: none;
+    cursor: pointer;
+    transform: translateX(-15px);
+    transition: transform 0.4s ease;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    transform: scaleX(0);
+    margin-top: 80px;
+    height: 8px;
+    right: 100px;
+    background-color: #303030;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease;
+  }
+
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+  }
 `
 
 export default function Home() {
@@ -63,9 +92,9 @@ export default function Home() {
       <img style={{ visibility: "hidden" }} src={radnanLogoThick} />
       <Header> I'm Adnan</Header>
       <ListItemContainer>
-        <ListItem>Work</ListItem>
-        <ListItem>Resume</ListItem>
-        <ListItem>Contact</ListItem>
+        <StyledLink>Work</StyledLink>
+        <StyledLink href={resume}>Resume</StyledLink>
+        <StyledLink>Contact</StyledLink>
       </ListItemContainer>
     </Container>
   )
